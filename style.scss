@@ -136,6 +136,12 @@ Components
     vertical-align: middle;
     margin-top: calc(1ex - 1cap);
 }
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--lines, 3);
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
 /* ==========================================================================
 Pages
 ========================================================================== */
