@@ -78,6 +78,10 @@ img, picture, video, canvas, svg {
     background-repeat: no-repeat;
     background-size: cover;
 }
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
 input {
     accent-color: var(--clr-accent);
 }
