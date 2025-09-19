@@ -108,7 +108,7 @@ a {
     text-decoration: none;
     color: var(--link-clr);
 }
-a:hover {
+where(a):hover {
     color: var(--link-clr-hover);
 }
 *:focus-visible {
@@ -295,6 +295,9 @@ Utility
 .inline {
     display: inline;
 }
+.container {
+    container-type: inline-size;
+}
 .square {
     aspect-ratio: 1;
 }
@@ -352,3 +355,4 @@ Utility
 //         }
 //     }
 // } 
+
